@@ -1,0 +1,24 @@
+{
+  "name": "microfrontend-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolainormann/microfrontend-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolainormann/microfrontend-demo/issues"
+  },
+  "homepage": "https://github.com/nicolainormann/microfrontend-demo#readme"
+}

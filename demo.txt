@@ -1,0 +1,22 @@
+Hvad er en micro frontend
+    -   Arkitektur
+    -   Fordele
+        *   Teknologi agnostisk
+        *   Kan bruges i flere kontekster
+        *   Deploy uafhængigt
+        *   Update uafhængigt
+    -   Ulemper
+        *   Stor bundle
+        *   Complex at teste e2e
+        *   Svært at overholde samme standarder (Linting, test, etc)
+Demo
+Cases
+    -   IKEA
+    -   Zalando
+    -   Spotify (iFrame)
+    -   DAZN
+DRB og micro frontends
+    -   wea-mf-my-finances 
+    -   inp-mf-investment-profiling
+    -   microfrontend SDK
+    -   kun angular indtil videre

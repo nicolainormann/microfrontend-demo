@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= brand %> <%= model %></title>
+    <meta charset="UTF-8" />
+
+    <style>
+      body {
+        box-sizing: border-box;
+        width: 1200px;
+        padding: 0;
+        margin: 0 auto;
+      }
+    </style>
+
+    <script src="/add-to-basket.js"></script>
+    <script src="/mini-basket.js" type="module"></script>
+    <script src="/product-details.js" type="module"></script>
+  </head>
+
+  <body>
+    <main id="root">
+      <product-details
+        brand="<%= brand %>"
+        model="<%= model %>"
+        price="<%= price %>"
+        img="<%= img %>"
+      ></product-details>
+    </main>
+    <add-to-basket model="<%= model %>" price="<%= price %>"></add-to-basket>
+    <mini-basket></mini-basket>
+  </body>
+</html>
